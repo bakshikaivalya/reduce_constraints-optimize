@@ -7,7 +7,7 @@ linear constraints which may grow linearly with the time complexity. Unloading a
 a high dimensional Hessian which grows quadratically with the number of decision variables as well as constraints
 (which become slack decision variables in interior point methods). The algorithm and 2d example is an implementation of
 a fast and inexpensive convex hull approach to identifying the non-redundant constraints i.e. redundant constraint
-removal.
+removal. Although the program can handle hyperplane constraints the example shown is 2d for ease of visualization.
 
 Author: Kaivalya Bakshi
 @Date: 15 Mar 2019
